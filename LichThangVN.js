@@ -496,21 +496,21 @@ function goToMonth(mm, yy) {
 function getPrevMonthLink(mm, yy) {
 	var mm1 = mm > 1 ? mm-1 : 12;
 	var yy1 = mm > 1 ? yy : yy-1;
-	return '<a href="javascript:void(0)" onclick="goToMonth(' + mm1 + ', ' + yy1 + ')"><img width="20" height="15" src="/Prev.gif" /></a>'; 
+	return '<a href="javascript:void(0)" onclick="goToMonth(' + mm1 + ', ' + yy1 + ')"><img width="20" height="15" src="https://anhlevan2022.github.io/calendar/Prev.gif" /></a>'; 
 }
 
 function getNextMonthLink(mm, yy) {
     var mm1 = mm < 12 ? mm + 1 : 1;
     var yy1 = mm < 12 ? yy : yy + 1;
-    return '<a href="javascript:void(0)" onclick="goToMonth(' + mm1 + ', ' + yy1 + ')"><img width="20" height="15" src="/Next.gif" /></a>'; 
+    return '<a href="javascript:void(0)" onclick="goToMonth(' + mm1 + ', ' + yy1 + ')"><img width="20" height="15" src="https://anhlevan2022.github.io/calendar/Next.gif" /></a>'; 
 }
 
 function getPrevYearLink(mm, yy) {
-    return '<a href="javascript:void(0)" onclick="goToMonth(' + mm + ', ' + (yy - 1) + ')"><img width="20" height="15" src="/Back.gif" /></a>'; 
+    return '<a href="javascript:void(0)" onclick="goToMonth(' + mm + ', ' + (yy - 1) + ')"><img width="20" height="15" src="https://anhlevan2022.github.io/calendar/Back.gif" /></a>'; 
 }
 
 function getNextYearLink(mm, yy) {
-    return '<a href="javascript:void(0)" onclick="goToMonth(' + mm + ', ' + (yy + 1) + ')"><img width="20" height="15" src="/Forward.gif" /></a>'; 
+    return '<a href="javascript:void(0)" onclick="goToMonth(' + mm + ', ' + (yy + 1) + ')"><img width="20" height="15" src="https://anhlevan2022.github.io/calendar/Forward.gif" /></a>'; 
 }
 
 function printHead(mm, yy) {
@@ -623,3 +623,4 @@ function showVietCal() {
 
 
 //showVietCal();
+
