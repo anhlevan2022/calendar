@@ -42,7 +42,7 @@ function getNgay(ngayhientai) {
             lGioHD2 = lGioHD[2 * i + 1].toString().split("(");
         strHtml += "<div class='licht-tam-tat-col1-lvsicsoft'><p>" + lGioHD1[0] + ":<br>(" + lGioHD1[1] + "</p><p>" + lGioHD2[0] + ":<br>(" + lGioHD2[1] + "</p></div>"
     }
-    strHtml += "</div></div><div class='fooder_lich-lvsicsoft' style='height:80px!important;padding-bottom:10px'><div class='fooder_lich_left-lvsicsoft'><a href='javascript:void(0)' onclick='backtoday()'>Quay về ngày hôm nay</a></div><div class='fooder_lich_right-lvsicsoft' style='margin-right:-35px'><a target='_blank' rel='nofollow' href='https://s-anhlevan.blogspot.com/'>ANHLEVAN<br />" + ngayhientai.getDate() + "/" + (ngayhientai.getMonth() + 1) + "/" + ngayhientai.getFullYear() + "</a></div></div></div></div>\x3c!--End khung-lich--\x3e ";
+    strHtml += "</div></div><div class='fooder_lich-lvsicsoft' style='height:140px!important;padding-bottom:10px'><div class='fooder_lich_left-lvsicsoft'><a href='javascript:void(0)' onclick='backtoday()'>Quay về ngày hôm nay</a></div><div class='fooder_lich_right-lvsicsoft' style='margin-right:-35px'><a target='_blank' rel='nofollow' href='https://s-anhlevan.blogspot.com/'>ANHLEVAN<br />" + ngayhientai.getDate() + "/" + (ngayhientai.getMonth() + 1) + "/" + ngayhientai.getFullYear() + "</a></div></div></div></div>\x3c!--End khung-lich--\x3e ";
     var divlvs_hienthi_lich = document.getElementById("lvs-hienthi-lich");
     divlvs_hienthi_lich.innerHTML = strHtml, AddAnhConGiapLVSICSOFT(ngayhientai.getFullYear() + "," + (ngayhientai.getMonth() + 1) + "," + ngayhientai.getDate())
 }
@@ -1387,5 +1387,6 @@ var NgayBatDauChi = "1924-02-15",
     ImagePathLVSICSOFT = "https://lichngaytot.com/Content/";
 
 GioHoangDao[0] = [1, 1, 0, 1, 0, 0, 1, 0, 1, 1, 0, 0], GioHoangDao[1] = [0, 0, 1, 1, 0, 1, 0, 0, 1, 0, 1, 1], GioHoangDao[2] = [1, 1, 0, 0, 1, 1, 0, 1, 0, 0, 1, 0], GioHoangDao[3] = [1, 0, 1, 1, 0, 0, 1, 1, 0, 1, 0, 0], GioHoangDao[4] = [0, 0, 1, 0, 1, 1, 0, 0, 1, 1, 0, 1], GioHoangDao[5] = [0, 1, 0, 0, 1, 0, 1, 1, 0, 0, 1, 1];
+
 
 
