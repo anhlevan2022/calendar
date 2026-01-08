@@ -1387,10 +1387,3 @@ var NgayBatDauChi = "1924-02-15",
     ImagePathLVSICSOFT = "https://lichngaytot.com/Content/";
 
 GioHoangDao[0] = [1, 1, 0, 1, 0, 0, 1, 0, 1, 1, 0, 0], GioHoangDao[1] = [0, 0, 1, 1, 0, 1, 0, 0, 1, 0, 1, 1], GioHoangDao[2] = [1, 1, 0, 0, 1, 1, 0, 1, 0, 0, 1, 0], GioHoangDao[3] = [1, 0, 1, 1, 0, 0, 1, 1, 0, 1, 0, 0], GioHoangDao[4] = [0, 0, 1, 0, 1, 1, 0, 0, 1, 1, 0, 1], GioHoangDao[5] = [0, 1, 0, 0, 1, 0, 1, 1, 0, 0, 1, 1];
-
-
-
-
-
-
-
