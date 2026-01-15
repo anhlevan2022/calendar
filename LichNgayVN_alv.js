@@ -36,7 +36,10 @@ function update() {
     var d = now.getDate(), m = now.getMonth() + 1, y = now.getFullYear();
     
     // Đồng hồ
-    document.getElementById('clock-live').innerText = now.toLocaleTimeString('vi-VN');
+    var h = String(now.getHours()).padStart(2, '0');
+    var mi = String(now.getMinutes()).padStart(2, '0');
+    var s = String(now.getSeconds()).padStart(2, '0');
+    document.getElementById('clock-live').innerHTML = `${h}<span class="dot">:</span>${mi}<span class="dot">:</span>${s}`;
     
     // Dương lịch
     document.getElementById('d-num').innerText = String(d).padStart(2, '0');
@@ -74,4 +77,5 @@ function update() {
 }
 
 setInterval(update, 1000);
+
 update();
